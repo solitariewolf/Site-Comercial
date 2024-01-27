@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+html, body{
+    height: 100%;
+}
+
+header{
+    padding: 20px 2%;
+}
+
+.logo img{
+    float: left;
+    width: 236px;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    padding: 8px 0;
+    list-style-type: none;
+}
+
+header nav ul li{
+    float: left;
+    font-size: 14px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+header a{
+    color: #b4b4b4;
+    text-decoration: none;
+}
+
+/*secao mosaico*/
+
+.mosaico-single{
+    float: left;
+    width: calc(100% / 6);
+}
+
+.img-mosaico-single{
+    width: 100%;
+    padding-top: 100%;
+    background-color: antiquewhite;
+    border: 5px solid white;
+}
