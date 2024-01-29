@@ -62,3 +62,28 @@ header a{
     background-color: antiquewhite;
     border: 5px solid white;
 }
+
+/* secao servicos*/
+
+.servicos > .container{
+    max-width: 800px;
+    display: flex;
+}
+
+.servicos > .container .box-servico:nth-of-type(1){
+    width: 30%;
+    padding: 30px 0;
+    background: #576975;
+}
+
+.servicos > .container .box-servico:nth-of-type(2){
+    width: 40%;
+    padding: 30px 0;
+    background: #688293;
+}
+
+.servicos > .container .box-servico:nth-of-type(3){
+    width: 30%;
+    padding: 30px 0;
+    background: #576975;
+}
